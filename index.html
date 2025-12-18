@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuteDude – HTML Learning Demo</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to <mark>TuteDude</mark> Learning Platform</h1>
+    <p>A project designed by <b>TuteDude</b> to learn HTML</p>
+    <p>Best TuteDude in town since 2021</p>
+    
+    <nav>
+      <ul>
+        <li><a href="#about">About TD</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#trivia">Trivia</a></li>
+        <li><a href="#extras">Extras</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <figure>
+      <img src="/IMAGE/TUTUDUDE.jpeg" alt="Learning with TuteDude" width="600">
+      <figcaption>Empowering learners through interactive HTML demos</figcaption>
+    </figure>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- About Section -->
+    <section id="about">
+      <article>
+        <h2>About TuteDude</h2>
+        <p>TuteDude (<abbr title="Tutorial Dude">TD</abbr>) was founded in <time datetime="2020">2020</time> to make coding <strong>fun and accessible</strong>.</p>
+      </article>
+      <blockquote>
+        "Learning HTML is the first step to becoming a web developer."
+        <cite> – TuteDude Team</cite>
+      </blockquote>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+      <h2>Learning Menu</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>Duration</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML Basics</td>
+            <td>2 hrs</td>
+            <td>
+              <table border="1">
+                <tr><td>Tags</td><td>20</td></tr>
+                <tr><td>Examples</td><td>15</td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>Forms</td>
+            <td>1.5 hrs</td>
+            <td>
+              <table border="1">
+                <tr><td>Inputs</td><td>10</td></tr>
+                <tr><td>Validation</td><td>5</td></tr>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">End of Menu</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Trivia Section -->
+    <section id="trivia">
+      <h2>Trivia</h2>
+      <aside>
+        <details>
+          <summary>Did you know?</summary>
+          <p>The first website ever created was by Tim Berners-Lee in 1991.</p>
+        </details>
+      </aside>
+    </section>
+
+    <!-- Extras Section -->
+    <section id="extras">
+      <h2>Extras</h2>
+      <audio controls>
+        <source src="demo-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <video controls width="400">
+        <source src="demo-video.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </section>
+
+    <!-- Feedback Form -->
+    <section id="feedback">
+      <h2>Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>Share your thoughts</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+
+          <label for="topic">Favorite Topic:</label>
+          <select id="topic" name="topic">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+          </select><br><br>
+
+          <label for="feedback">Your Feedback:</label><br>
+          <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea><br><br>
+
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <address>
+        TuteDude<br>
+        123 Taco Street<br>
+        Taco Town, TX 75000<br>
+      Contact us: <a href="mailto:support@tutedude.com">info@tutedude.com</a>
+    </address>
+    <p>&copy; <time datetime="2025">2025</time>TuteDude Learning Platform</p>
+  </footer>
+
+</body>
+</html>
+
